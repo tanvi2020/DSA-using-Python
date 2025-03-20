@@ -22,9 +22,7 @@ Here’s a list of the topics I have covered so far:
    cd dsa-daily-practice
    ```
 3. Explore the solutions and problems I’ve worked on by browsing through the respective folders and files.
-   ```
 
 ## 📖 Notes
-
-- The notebook provides step-by-step explanations for each problem.
+- The notebooks provides step-by-step explanations for each problem.
 - Detailed comments are included to help understand the logic.
