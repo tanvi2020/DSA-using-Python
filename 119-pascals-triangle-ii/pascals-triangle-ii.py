@@ -1,15 +1,9 @@
 class Solution:
     def getRow(self, rowIndex: int) -> List[int]:
-        def NCR(n,r):
-            res=1
-            for i in range(0,r):
-                res=res*(n-i)
-                res=res//(i+1)
-            return res
-        row=[]
-        for colIndex in range(rowIndex+1):
-            row.append((NCR(rowIndex,colIndex)))
+        row=[1]
+        for i in range(1,rowIndex+1):
+            next_element=row[i-1]*(rowIndex-i+1)//i
+            row.append(next_element)
 
         return row
-        
                 
